@@ -7,7 +7,7 @@ For Installation run the flowing Command
 git clone git@github.com:zmdev96/cmf-task.git
 ```
 ```sh
-cd cmf-task
+cd cmf-task and rename .env.example to .env
 ```
 ```sh
 composer install
