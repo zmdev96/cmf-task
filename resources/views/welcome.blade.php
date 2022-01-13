@@ -18,7 +18,9 @@
         <div id="app">
             <home-component> </home-component>
         </div>
+        <script>
 
+        </script>
         <script src="{{asset('js/app.js')}}" charset="utf-8"></script>
     </body>
 </html>

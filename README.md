@@ -1,4 +1,4 @@
-# CMF-Task
+# Vue-Laravel Api
 ## Installation & Running
 For Installation run the flowing Command 
 
