@@ -1,9 +1,3 @@
-@php
-    $config = [
-      'appName' => config('app.name'),
-      'local'   => $local = app()->getLocale(),
-    ];
-@endphp
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -18,9 +12,6 @@
         <div id="app">
             <home-component> </home-component>
         </div>
-        <script>
-
-        </script>
         <script src="{{asset('js/app.js')}}" charset="utf-8"></script>
     </body>
 </html>
