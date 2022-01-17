@@ -6,7 +6,7 @@
                     <h3>{{ feed.strapline }}</h3>
                     <h2>{{ feed.headline.bold }}</h2>
                     <p>{{ feed.body.paragraph }}</p>
-                    <img v-bind:src="feed.pos1.picture['@attributes'].href" alt="image">
+                    <img v-bind:src="feed.pos1.picture['@attributes'].src" alt="image">
                     <h2>{{ feed.pos1.headline.bold }}</h2>
                     <p>{{ feed.pos1.subline }}</p>
                     <ul>

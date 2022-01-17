@@ -28344,7 +28344,7 @@ var render = function () {
           _vm._v(" "),
           _c("img", {
             attrs: {
-              src: _vm.feed.pos1.picture["@attributes"].href,
+              src: _vm.feed.pos1.picture["@attributes"].src,
               alt: "image",
             },
           }),
